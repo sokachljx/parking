@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6071c8fc-62ab-4c33-9be8-945bfa2ea3e4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>url</find>
+      <find>ry-config</find>
+      <find>ruoyi-auth</find>
+      <find>pom</find>
+      <find>236543183</find>
+      <find>访问码</find>
+      <find>服务</find>
+      <find>用户名</find>
+      <find>Copyright</find>
+      <find>ruoyi</find>
+      <find>若依</find>
+      <find>monitor</find>
+      <find>服务状态监控</find>
+      <find>9100</find>
+      <find>源码</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>8888</replace>
+      <replace />
+      <replace>智慧</replace>
+    </replaceStrings>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ruoyi-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-api/ruoyi-api-system/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-common/ruoyi-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-common/ruoyi-common-datascope/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-common/ruoyi-common-datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-common/ruoyi-common-log/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-common/ruoyi-common-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-common/ruoyi-common-security/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-common/ruoyi-common-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-common/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-visual/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-modules/ruoyi-file/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-modules/ruoyi-gen/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-modules/ruoyi-job/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-modules/ruoyi-system/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-visual/ruoyi-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/package.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-gateway/src/main/java/com/ruoyi/gateway/RuoYiGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/vue.config.js" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/Logo.vue" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/.env.production" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/.env.development" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/.env.staging" />
+        <option value="$PROJECT_DIR$/ruoyi-modules/ruoyi-gen/src/main/java/com/ruoyi/gen/util/GenUtils.java" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/index.vue" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/login.vue" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/register.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\study-app\maven\apache-maven-3.8.3\local-repository" />
+        <option name="mavenHome" value="E:\study-app\maven\apache-maven-3.8.3" />
+        <option name="userSettingsFile" value="E:\study-app\maven\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ruoyi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="445" />
+    <option name="y" value="51" />
+    <option name="width" value="1476" />
+    <option name="height" value="1011" />
+  </component>
+  <component name="ProjectId" id="2EhtbgxRW8mEVk3pWhoeXtB7wRI" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-api" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-api-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="directive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-visual" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-visual" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-visual" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-visual" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-visual" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-visual" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-visual" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24763705" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="ts.external.directory.path" value="E:\study-app\IDEA\IntelliJ IDEA 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\springboot\park\ruoyi-modules\park-fee\src\main\resources" />
+      <recent name="F:\springboot\park\ruoyi-modules\park-vehicle\src\main\resources" />
+      <recent name="F:\springboot\park\ruoyi-ui\src\api\parkingSpace" />
+      <recent name="F:\springboot\park\ruoyi-modules\ruoyi-parkingInformation\src\main\resources" />
+      <recent name="D:\developer\workspace\workspace_idea\ruoyi\ruoyi-ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\springboot\park\ruoyi-ui\src\views\vehicleInformation" />
+      <recent name="F:\springboot\park\ruoyi-ui\src\views" />
+      <recent name="F:\springboot\park\ruoyi-ui\src\views\vehicleInformation\vehicle" />
+      <recent name="D:\developer\workspace\workspace_idea\ruoyi" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.ruoyi.parkingInformation.service.impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ParkingMonitorApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingInformationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="parking-parkingInformation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parking.parkingInformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.parking.parkingInformation.ParkingInformationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingJobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="parking-modules-job" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parking.job.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.parking.job.ParkingJobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="parking-visual-monitor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parking.modules.monitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.parking.modules.monitor.ParkingMonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="parking-modules-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parking.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.parking.system.ParkingSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleInformationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="park-vehicle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parking.vehicle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.parking.vehicle.VehicleInformationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ParkingJobApplication" />
+      <item itemvalue="Spring Boot.ParkingInformationApplication" />
+      <item itemvalue="Spring Boot.ParkingSystemApplication" />
+      <item itemvalue="Spring Boot.VehicleInformationApplication" />
+      <item itemvalue="Spring Boot.ParkingMonitorApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ParkingMonitorApplication" />
+        <item itemvalue="Spring Boot.VehicleInformationApplication" />
+        <item itemvalue="Spring Boot.ParkingSystemApplication" />
+        <item itemvalue="Spring Boot.ParkingInformationApplication" />
+        <item itemvalue="Spring Boot.ParkingJobApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6071c8fc-62ab-4c33-9be8-945bfa2ea3e4" name="Default Changelist" comment="" />
+      <created>1661581168727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661581168727</updated>
+      <workItem from="1661581172887" duration="5267000" />
+      <workItem from="1661586522642" duration="583000" />
+      <workItem from="1661594245514" duration="2116000" />
+      <workItem from="1661596402622" duration="338000" />
+      <workItem from="1661596781643" duration="2861000" />
+      <workItem from="1661698734765" duration="4750000" />
+      <workItem from="1663059718767" duration="6870000" />
+      <workItem from="1663069375668" duration="1721000" />
+      <workItem from="1663071790377" duration="4514000" />
+      <workItem from="1663136107453" duration="2055000" />
+      <workItem from="1663143019843" duration="7590000" />
+      <workItem from="1663159478879" duration="5858000" />
+      <workItem from="1663206984341" duration="17796000" />
+      <workItem from="1663288634661" duration="7018000" />
+      <workItem from="1663297011558" duration="1674000" />
+      <workItem from="1663315625555" duration="639000" />
+      <workItem from="1663379971799" duration="17901000" />
+      <workItem from="1663499341565" duration="5845000" />
+      <workItem from="1663506990033" duration="6058000" />
+      <workItem from="1663552671172" duration="6547000" />
+      <workItem from="1663574457287" duration="4957000" />
+      <workItem from="1663582998587" duration="8762000" />
+      <workItem from="1663634501720" duration="917000" />
+      <workItem from="1663644229659" duration="3216000" />
+      <workItem from="1663725155535" duration="626000" />
+      <workItem from="1663740537907" duration="3783000" />
+      <workItem from="1663746888355" duration="1796000" />
+      <workItem from="1663748732712" duration="95000" />
+      <workItem from="1663754420578" duration="3377000" />
+      <workItem from="1663763953721" duration="863000" />
+      <workItem from="1663764834782" duration="9195000" />
+      <workItem from="1663812983482" duration="16245000" />
+      <workItem from="1664201777333" duration="7665000" />
+      <workItem from="1664242330692" duration="5900000" />
+      <workItem from="1664259915649" duration="14032000" />
+      <workItem from="1664285836305" duration="5737000" />
+      <workItem from="1664328433812" duration="2338000" />
+      <workItem from="1664349651708" duration="1782000" />
+      <workItem from="1664372146199" duration="6659000" />
+      <workItem from="1664434050748" duration="3274000" />
+      <workItem from="1664447240817" duration="4184000" />
+      <workItem from="1664456084758" duration="5474000" />
+      <workItem from="1665683844223" duration="768000" />
+      <workItem from="1665845620619" duration="777000" />
+      <workItem from="1666009443554" duration="98000" />
+      <workItem from="1666026165337" duration="2274000" />
+      <workItem from="1666106112519" duration="8880000" />
+      <workItem from="1666184605195" duration="3945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15915000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="687" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21099435" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291367" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36510792" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291367" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3291367" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291367" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.30935252" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32174617" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ruoyi-gateway/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-gateway/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-gateway/src/main/java/com/ruoyi/gateway/handler/ValidateCodeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-modules/ruoyi-job/src/main/java/com/ruoyi/job/config/ScheduleConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-modules/ruoyi-job/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-datasource/src/main/java/com/ruoyi/common/datasource/annotation/Master.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-datasource/src/main/java/com/ruoyi/common/datasource/annotation/Slave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-modules/ruoyi-job/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-modules/ruoyi-job/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-datasource/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-auth/src/main/java/com/ruoyi/auth/RuoYiAuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-visual/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-modules/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="93" column="40" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-modules/ruoyi-file/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-modules/ruoyi-gen/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-modules/ruoyi-job/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-modules/ruoyi-system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-visual/ruoyi-monitor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-gateway/src/main/java/com/ruoyi/gateway/RuoYiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/Logo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/.env.production">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/.env.development">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/.env.staging">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-modules/ruoyi-gen/src/main/java/com/ruoyi/gen/util/GenUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="218" column="51" selection-start-line="218" selection-start-column="51" selection-end-line="218" selection-end-column="51" />
+          <folding>
+            <element signature="e#6845#6846#0" expanded="true" />
+            <element signature="e#6911#6912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="114" column="24" lean-forward="true" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/directive/module/clipboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/monitor/online/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1995" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/monitor/job/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/monitor/job/log.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2143">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/components/icons/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1417" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/index_v1.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/redirect.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/permission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/register.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2481">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/system/logininfor/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2508" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/system/user/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-visual/ruoyi-monitor/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-visual/ruoyi-monitor/src/main/java/com/ruoyi/modules/monitor/RuoYiMonitorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-visual/ruoyi-monitor/src/main/java/com/ruoyi/modules/monitor/config/WebSecurityConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="40" column="61" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/layout/components/Navbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="164" column="22" lean-forward="true" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

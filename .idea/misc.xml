@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-modules/ruoyi-business/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-modules/ruoyi-activiti/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-modules/ruoyi-parkingInformation/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-common/parking-common-datascope/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-common/parking-common-datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-common/parking-common-log/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-common/parking-common-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-api/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-common/parking-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-common/ruoyi-common-security/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-common/ruoyi-common-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-visual/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-gateway/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/parking-modules/ruoyi-file/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-modules/ruoyi-gen/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-modules/ruoyi-job/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-modules/ruoyi-parkingInformation/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-modules/ruoyi-system/pom.xml" />
+        <option value="$PROJECT_DIR$/parking-visual/ruoyi-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi-api-system/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.parking.parkingInformation.mapper.ParkingSpaceInformationMapper">
+
+    <resultMap type="ParkingSpaceInformation" id="ParkingSpaceInformationResult">
+        <result property="parkingSpaceInformationId"    column="parking_space_information_id"    />
+        <result property="parkingSpaceNumber"    column="parking_space_number"    />
+        <result property="parkingSpaceType"    column="parking_space_type"    />
+        <result property="parkingSpaceAddress"    column="parking_space_address"    />
+        <result property="parkingSpaceStatus"    column="parking_space_status"    />
+        <result property="hourlyParkingFee"    column="hourly_parking_fee"    />
+        <result property="parkingSpaceRemarks"    column="parking_space_remarks"    />
+        <result property="recommend"    column="recommend"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateTime"    column="update_time"    />
+    </resultMap>
+
+    <sql id="selectParkingSpaceInformationVo">
+        select parking_space_information_id, parking_space_number, parking_space_type, parking_space_address, parking_space_status, hourly_parking_fee, parking_space_remarks, recommend, create_time, update_time from parking_space_information
+    </sql>
+
+    <select id="selectParkingSpaceInformationList" parameterType="ParkingSpaceInformation" resultMap="ParkingSpaceInformationResult">
+        <include refid="selectParkingSpaceInformationVo"/>
+        <where>
+            <if test="parkingSpaceNumber != null  and parkingSpaceNumber != ''"> and parking_space_number = #{parkingSpaceNumber}</if>
+            <if test="parkingSpaceType != null  and parkingSpaceType != ''"> and parking_space_type = #{parkingSpaceType}</if>
+            <if test="parkingSpaceAddress != null  and parkingSpaceAddress != ''"> and parking_space_address = #{parkingSpaceAddress}</if>
+            <if test="parkingSpaceStatus != null  and parkingSpaceStatus != ''"> and parking_space_status = #{parkingSpaceStatus}</if>
+            <if test="hourlyParkingFee != null "> and hourly_parking_fee = #{hourlyParkingFee}</if>
+            <if test="parkingSpaceRemarks != null  and parkingSpaceRemarks != ''"> and parking_space_remarks = #{parkingSpaceRemarks}</if>
+            <if test="recommend != null "> and recommend = #{recommend}</if>
+        </where>
+    </select>
+
+    <select id="selectParkingSpaceInformationByParkingSpaceInformationId" parameterType="Long" resultMap="ParkingSpaceInformationResult">
+        <include refid="selectParkingSpaceInformationVo"/>
+        where parking_space_information_id = #{parkingSpaceInformationId}
+    </select>
+
+    <insert id="insertParkingSpaceInformation" parameterType="ParkingSpaceInformation" useGeneratedKeys="true" keyProperty="parkingSpaceInformationId">
+        insert into parking_space_information
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="parkingSpaceNumber != null">parking_space_number,</if>
+            <if test="parkingSpaceType != null">parking_space_type,</if>
+            <if test="parkingSpaceAddress != null">parking_space_address,</if>
+            <if test="parkingSpaceStatus != null">parking_space_status,</if>
+            <if test="hourlyParkingFee != null">hourly_parking_fee,</if>
+            <if test="parkingSpaceRemarks != null">parking_space_remarks,</if>
+            <if test="recommend != null">recommend,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateTime != null">update_time,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="parkingSpaceNumber != null">#{parkingSpaceNumber},</if>
+            <if test="parkingSpaceType != null">#{parkingSpaceType},</if>
+            <if test="parkingSpaceAddress != null">#{parkingSpaceAddress},</if>
+            <if test="parkingSpaceStatus != null">#{parkingSpaceStatus},</if>
+            <if test="hourlyParkingFee != null">#{hourlyParkingFee},</if>
+            <if test="parkingSpaceRemarks != null">#{parkingSpaceRemarks},</if>
+            <if test="recommend != null">#{recommend},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+        </trim>
+    </insert>
+
+    <update id="updateParkingSpaceInformation" parameterType="ParkingSpaceInformation">
+        update parking_space_information
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="parkingSpaceNumber != null">parking_space_number = #{parkingSpaceNumber},</if>
+            <if test="parkingSpaceType != null">parking_space_type = #{parkingSpaceType},</if>
+            <if test="parkingSpaceAddress != null">parking_space_address = #{parkingSpaceAddress},</if>
+            <if test="parkingSpaceStatus != null">parking_space_status = #{parkingSpaceStatus},</if>
+            <if test="hourlyParkingFee != null">hourly_parking_fee = #{hourlyParkingFee},</if>
+            <if test="parkingSpaceRemarks != null">parking_space_remarks = #{parkingSpaceRemarks},</if>
+            <if test="recommend != null">recommend = #{recommend},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </trim>
+        where parking_space_information_id = #{parkingSpaceInformationId}
+    </update>
+
+    <delete id="deleteParkingSpaceInformationByParkingSpaceInformationId" parameterType="Long">
+        delete from parking_space_information where parking_space_information_id = #{parkingSpaceInformationId}
+    </delete>
+
+    <delete id="deleteParkingSpaceInformationByParkingSpaceInformationIds" parameterType="String">
+        delete from parking_space_information where parking_space_information_id in
+        <foreach item="parkingSpaceInformationId" collection="array" open="(" separator="," close=")">
+            #{parkingSpaceInformationId}
+        </foreach>
+    </delete>
+</mapper>

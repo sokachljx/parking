@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.parking.vehicle.mapper.VehicleInformationMapper">
+
+    <resultMap type="VehicleInformation" id="VehicleInformationResult">
+        <result property="vehicleInformationId"    column="vehicle_information_id"    />
+        <result property="licensePlateNumber"    column="license_plate_number"    />
+        <result property="model"    column="model"    />
+        <result property="colour"    column="colour"    />
+        <result property="userName"    column="user_name"    />
+        <result property="id"    column="id"    />
+        <result property="contactNumber"    column="contact_number"    />
+        <result property="userAccount"    column="user_account"    />
+        <result property="recommend"    column="recommend"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateTime"    column="update_time"    />
+    </resultMap>
+
+    <sql id="selectVehicleInformationVo">
+        select vehicle_information_id, license_plate_number, model, colour, user_name, id, contact_number, user_account, recommend, create_time, update_time from vehicle_information
+    </sql>
+
+    <select id="selectVehicleInformationList" parameterType="VehicleInformation" resultMap="VehicleInformationResult">
+        <include refid="selectVehicleInformationVo"/>
+        <where>
+            <if test="licensePlateNumber != null  and licensePlateNumber != ''"> and license_plate_number = #{licensePlateNumber}</if>
+            <if test="model != null  and model != ''"> and model = #{model}</if>
+            <if test="colour != null  and colour != ''"> and colour = #{colour}</if>
+            <if test="userName != null  and userName != ''"> and user_name like concat('%', #{userName}, '%')</if>
+            <if test="contactNumber != null  and contactNumber != ''"> and contact_number = #{contactNumber}</if>
+            <if test="userAccount != null "> and user_account = #{userAccount}</if>
+            <if test="recommend != null "> and recommend = #{recommend}</if>
+        </where>
+    </select>
+
+    <select id="selectVehicleInformationByVehicleInformationId" parameterType="Long" resultMap="VehicleInformationResult">
+        <include refid="selectVehicleInformationVo"/>
+        where vehicle_information_id = #{vehicleInformationId}
+    </select>
+
+    <insert id="insertVehicleInformation" parameterType="VehicleInformation" useGeneratedKeys="true" keyProperty="vehicleInformationId">
+        insert into vehicle_information
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="licensePlateNumber != null">license_plate_number,</if>
+            <if test="model != null">model,</if>
+            <if test="colour != null">colour,</if>
+            <if test="userName != null">user_name,</if>
+            <if test="id != null">id,</if>
+            <if test="contactNumber != null">contact_number,</if>
+            <if test="userAccount != null">user_account,</if>
+            <if test="recommend != null">recommend,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateTime != null">update_time,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="licensePlateNumber != null">#{licensePlateNumber},</if>
+            <if test="model != null">#{model},</if>
+            <if test="colour != null">#{colour},</if>
+            <if test="userName != null">#{userName},</if>
+            <if test="id != null">#{id},</if>
+            <if test="contactNumber != null">#{contactNumber},</if>
+            <if test="userAccount != null">#{userAccount},</if>
+            <if test="recommend != null">#{recommend},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+        </trim>
+    </insert>
+
+    <update id="updateVehicleInformation" parameterType="VehicleInformation">
+        update vehicle_information
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="licensePlateNumber != null">license_plate_number = #{licensePlateNumber},</if>
+            <if test="model != null">model = #{model},</if>
+            <if test="colour != null">colour = #{colour},</if>
+            <if test="userName != null">user_name = #{userName},</if>
+            <if test="id != null">id = #{id},</if>
+            <if test="contactNumber != null">contact_number = #{contactNumber},</if>
+            <if test="userAccount != null">user_account = #{userAccount},</if>
+            <if test="recommend != null">recommend = #{recommend},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </trim>
+        where vehicle_information_id = #{vehicleInformationId}
+    </update>
+
+    <delete id="deleteVehicleInformationByVehicleInformationId" parameterType="Long">
+        delete from vehicle_information where vehicle_information_id = #{vehicleInformationId}
+    </delete>
+
+    <delete id="deleteVehicleInformationByVehicleInformationIds" parameterType="String">
+        delete from vehicle_information where vehicle_information_id in
+        <foreach item="vehicleInformationId" collection="array" open="(" separator="," close=")">
+            #{vehicleInformationId}
+        </foreach>
+    </delete>
+</mapper>

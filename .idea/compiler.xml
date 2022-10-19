@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ruoyi-business" />
+        <module name="parking-common-datascope" />
+        <module name="ruoyi-job" />
+        <module name="ruoyi-system" />
+        <module name="park-modules-file" />
+        <module name="parking-common-log" />
+        <module name="parking-parkingInformation" />
+        <module name="parking-common-core" />
+        <module name="parking-modules-file" />
+        <module name="parking-common-redis" />
+        <module name="ruoyi-modules-activiti" />
+        <module name="ruoyi-file" />
+        <module name="parking-modules-job" />
+        <module name="park-modules-gen" />
+        <module name="ruoyi-gen" />
+        <module name="parking-common-datasource" />
+        <module name="park-visual-monitor" />
+        <module name="parking-visual-monitor" />
+        <module name="park-modules-system" />
+        <module name="parking-common-swagger" />
+        <module name="parking-modules-gen" />
+        <module name="parking-modules-system" />
+        <module name="park-gateway" />
+        <module name="park-fee" />
+        <module name="ruoyi-monitor" />
+        <module name="parking-vehicle" />
+        <module name="park-modules-job" />
+        <module name="ruoyi-common-core" />
+        <module name="ruoyi-parkingInfomation" />
+        <module name="park-vehicle" />
+        <module name="parking-api-system" />
+        <module name="park-modules-activiti" />
+        <module name="park-parkingInformation" />
+        <module name="parking-gateway" />
+        <module name="parking-auth" />
+        <module name="parking-common-security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+</project>

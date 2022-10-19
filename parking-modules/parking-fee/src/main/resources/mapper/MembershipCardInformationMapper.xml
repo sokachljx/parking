@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.parking.fee.mapper.MembershipCardInformationMapper">
+
+    <resultMap type="MembershipCardInformation" id="MembershipCardInformationResult">
+        <result property="membershipCardInformationId"    column="membership_card_information_id"    />
+        <result property="membershipLevel"    column="membership_level"    />
+        <result property="memberDiscount"    column="member_discount"    />
+        <result property="purchaseAmount"    column="purchase_amount"    />
+        <result property="limitedTime"    column="limited_time"    />
+        <result property="purchaseDetails"    column="purchase_details"    />
+        <result property="recommend"    column="recommend"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateTime"    column="update_time"    />
+    </resultMap>
+
+    <sql id="selectMembershipCardInformationVo">
+        select membership_card_information_id, membership_level, member_discount, purchase_amount, limited_time, purchase_details, recommend, create_time, update_time from membership_card_information
+    </sql>
+
+    <select id="selectMembershipCardInformationList" parameterType="MembershipCardInformation" resultMap="MembershipCardInformationResult">
+        <include refid="selectMembershipCardInformationVo"/>
+        <where>
+            <if test="membershipLevel != null  and membershipLevel != ''"> and membership_level = #{membershipLevel}</if>
+            <if test="memberDiscount != null  and memberDiscount != ''"> and member_discount = #{memberDiscount}</if>
+            <if test="purchaseAmount != null "> and purchase_amount = #{purchaseAmount}</if>
+            <if test="limitedTime != null  and limitedTime != ''"> and limited_time = #{limitedTime}</if>
+            <if test="purchaseDetails != null  and purchaseDetails != ''"> and purchase_details = #{purchaseDetails}</if>
+            <if test="recommend != null "> and recommend = #{recommend}</if>
+        </where>
+    </select>
+
+    <select id="selectMembershipCardInformationByMembershipCardInformationId" parameterType="Long" resultMap="MembershipCardInformationResult">
+        <include refid="selectMembershipCardInformationVo"/>
+        where membership_card_information_id = #{membershipCardInformationId}
+    </select>
+
+    <insert id="insertMembershipCardInformation" parameterType="MembershipCardInformation" useGeneratedKeys="true" keyProperty="membershipCardInformationId">
+        insert into membership_card_information
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="membershipLevel != null">membership_level,</if>
+            <if test="memberDiscount != null">member_discount,</if>
+            <if test="purchaseAmount != null">purchase_amount,</if>
+            <if test="limitedTime != null">limited_time,</if>
+            <if test="purchaseDetails != null">purchase_details,</if>
+            <if test="recommend != null">recommend,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateTime != null">update_time,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="membershipLevel != null">#{membershipLevel},</if>
+            <if test="memberDiscount != null">#{memberDiscount},</if>
+            <if test="purchaseAmount != null">#{purchaseAmount},</if>
+            <if test="limitedTime != null">#{limitedTime},</if>
+            <if test="purchaseDetails != null">#{purchaseDetails},</if>
+            <if test="recommend != null">#{recommend},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+        </trim>
+    </insert>
+
+    <update id="updateMembershipCardInformation" parameterType="MembershipCardInformation">
+        update membership_card_information
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="membershipLevel != null">membership_level = #{membershipLevel},</if>
+            <if test="memberDiscount != null">member_discount = #{memberDiscount},</if>
+            <if test="purchaseAmount != null">purchase_amount = #{purchaseAmount},</if>
+            <if test="limitedTime != null">limited_time = #{limitedTime},</if>
+            <if test="purchaseDetails != null">purchase_details = #{purchaseDetails},</if>
+            <if test="recommend != null">recommend = #{recommend},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </trim>
+        where membership_card_information_id = #{membershipCardInformationId}
+    </update>
+
+    <delete id="deleteMembershipCardInformationByMembershipCardInformationId" parameterType="Long">
+        delete from membership_card_information where membership_card_information_id = #{membershipCardInformationId}
+    </delete>
+
+    <delete id="deleteMembershipCardInformationByMembershipCardInformationIds" parameterType="String">
+        delete from membership_card_information where membership_card_information_id in
+        <foreach item="membershipCardInformationId" collection="array" open="(" separator="," close=")">
+            #{membershipCardInformationId}
+        </foreach>
+    </delete>
+</mapper>

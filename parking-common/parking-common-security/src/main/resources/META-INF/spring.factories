@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.parking.common.security.config.WebMvcConfig,\
+  com.parking.common.security.service.TokenService,\
+  com.parking.common.security.aspect.PreAuthorizeAspect,\
+  com.parking.common.security.aspect.InnerAuthAspect,\
+  com.parking.common.security.handler.GlobalExceptionHandler

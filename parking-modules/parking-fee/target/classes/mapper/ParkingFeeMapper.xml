@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.parking.fee.mapper.ParkingFeeMapper">
+
+    <resultMap type="ParkingFee" id="ParkingFeeResult">
+        <result property="parkingFeeId"    column="parking_fee_id"    />
+        <result property="parkingSpaceNumber"    column="parking_space_number"    />
+        <result property="parkingSpaceType"    column="parking_space_type"    />
+        <result property="parkingSpaceAddress"    column="parking_space_address"    />
+        <result property="hourlyParkingFee"    column="hourly_parking_fee"    />
+        <result property="licensePlateNumber"    column="license_plate_number"    />
+        <result property="startTime"    column="start_time"    />
+        <result property="endTime"    column="end_time"    />
+        <result property="totalTime"    column="total_time"    />
+        <result property="licensePlateRecognition"    column="license_plate_recognition"    />
+        <result property="membershipCardNumber"    column="membership_card_number"    />
+        <result property="memberDiscount"    column="member_discount"    />
+        <result property="totalCost"    column="total_cost"    />
+        <result property="userAccount"    column="user_account"    />
+        <result property="recommend"    column="recommend"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateTime"    column="update_time"    />
+    </resultMap>
+
+    <sql id="selectParkingFeeVo">
+        select parking_fee_id, parking_space_number, parking_space_type, parking_space_address, hourly_parking_fee, license_plate_number, start_time, end_time, total_time, license_plate_recognition, membership_card_number, member_discount, total_cost, user_account, recommend, create_time, update_time from parking_fee
+    </sql>
+
+    <select id="selectParkingFeeList" parameterType="ParkingFee" resultMap="ParkingFeeResult">
+        <include refid="selectParkingFeeVo"/>
+        <where>
+            <if test="parkingSpaceNumber != null  and parkingSpaceNumber != ''"> and parking_space_number = #{parkingSpaceNumber}</if>
+            <if test="parkingSpaceType != null  and parkingSpaceType != ''"> and parking_space_type = #{parkingSpaceType}</if>
+            <if test="parkingSpaceAddress != null  and parkingSpaceAddress != ''"> and parking_space_address = #{parkingSpaceAddress}</if>
+            <if test="hourlyParkingFee != null  and hourlyParkingFee != ''"> and hourly_parking_fee = #{hourlyParkingFee}</if>
+            <if test="licensePlateNumber != null  and licensePlateNumber != ''"> and license_plate_number = #{licensePlateNumber}</if>
+            <if test="startTime != null "> and start_time = #{startTime}</if>
+            <if test="endTime != null "> and end_time = #{endTime}</if>
+            <if test="totalTime != null "> and total_time = #{totalTime}</if>
+            <if test="licensePlateRecognition != null  and licensePlateRecognition != ''"> and license_plate_recognition = #{licensePlateRecognition}</if>
+            <if test="membershipCardNumber != null  and membershipCardNumber != ''"> and membership_card_number = #{membershipCardNumber}</if>
+            <if test="memberDiscount != null  and memberDiscount != ''"> and member_discount = #{memberDiscount}</if>
+            <if test="totalCost != null  and totalCost != ''"> and total_cost = #{totalCost}</if>
+            <if test="userAccount != null "> and user_account = #{userAccount}</if>
+            <if test="recommend != null "> and recommend = #{recommend}</if>
+        </where>
+    </select>
+
+    <select id="selectParkingFeeByParkingFeeId" parameterType="Long" resultMap="ParkingFeeResult">
+        <include refid="selectParkingFeeVo"/>
+        where parking_fee_id = #{parkingFeeId}
+    </select>
+
+    <insert id="insertParkingFee" parameterType="ParkingFee" useGeneratedKeys="true" keyProperty="parkingFeeId">
+        insert into parking_fee
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="parkingSpaceNumber != null">parking_space_number,</if>
+            <if test="parkingSpaceType != null">parking_space_type,</if>
+            <if test="parkingSpaceAddress != null">parking_space_address,</if>
+            <if test="hourlyParkingFee != null">hourly_parking_fee,</if>
+            <if test="licensePlateNumber != null">license_plate_number,</if>
+            <if test="startTime != null">start_time,</if>
+            <if test="endTime != null">end_time,</if>
+            <if test="totalTime != null">total_time,</if>
+            <if test="licensePlateRecognition != null">license_plate_recognition,</if>
+            <if test="membershipCardNumber != null">membership_card_number,</if>
+            <if test="memberDiscount != null">member_discount,</if>
+            <if test="totalCost != null">total_cost,</if>
+            <if test="userAccount != null">user_account,</if>
+            <if test="recommend != null">recommend,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateTime != null">update_time,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="parkingSpaceNumber != null">#{parkingSpaceNumber},</if>
+            <if test="parkingSpaceType != null">#{parkingSpaceType},</if>
+            <if test="parkingSpaceAddress != null">#{parkingSpaceAddress},</if>
+            <if test="hourlyParkingFee != null">#{hourlyParkingFee},</if>
+            <if test="licensePlateNumber != null">#{licensePlateNumber},</if>
+            <if test="startTime != null">#{startTime},</if>
+            <if test="endTime != null">#{endTime},</if>
+            <if test="totalTime != null">#{totalTime},</if>
+            <if test="licensePlateRecognition != null">#{licensePlateRecognition},</if>
+            <if test="membershipCardNumber != null">#{membershipCardNumber},</if>
+            <if test="memberDiscount != null">#{memberDiscount},</if>
+            <if test="totalCost != null">#{totalCost},</if>
+            <if test="userAccount != null">#{userAccount},</if>
+            <if test="recommend != null">#{recommend},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+        </trim>
+    </insert>
+
+    <update id="updateParkingFee" parameterType="ParkingFee">
+        update parking_fee
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="parkingSpaceNumber != null">parking_space_number = #{parkingSpaceNumber},</if>
+            <if test="parkingSpaceType != null">parking_space_type = #{parkingSpaceType},</if>
+            <if test="parkingSpaceAddress != null">parking_space_address = #{parkingSpaceAddress},</if>
+            <if test="hourlyParkingFee != null">hourly_parking_fee = #{hourlyParkingFee},</if>
+            <if test="licensePlateNumber != null">license_plate_number = #{licensePlateNumber},</if>
+            <if test="startTime != null">start_time = #{startTime},</if>
+            <if test="endTime != null">end_time = #{endTime},</if>
+            <if test="totalTime != null">total_time = #{totalTime},</if>
+            <if test="licensePlateRecognition != null">license_plate_recognition = #{licensePlateRecognition},</if>
+            <if test="membershipCardNumber != null">membership_card_number = #{membershipCardNumber},</if>
+            <if test="memberDiscount != null">member_discount = #{memberDiscount},</if>
+            <if test="totalCost != null">total_cost = #{totalCost},</if>
+            <if test="userAccount != null">user_account = #{userAccount},</if>
+            <if test="recommend != null">recommend = #{recommend},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </trim>
+        where parking_fee_id = #{parkingFeeId}
+    </update>
+
+    <delete id="deleteParkingFeeByParkingFeeId" parameterType="Long">
+        delete from parking_fee where parking_fee_id = #{parkingFeeId}
+    </delete>
+
+    <delete id="deleteParkingFeeByParkingFeeIds" parameterType="String">
+        delete from parking_fee where parking_fee_id in
+        <foreach item="parkingFeeId" collection="array" open="(" separator="," close=")">
+            #{parkingFeeId}
+        </foreach>
+    </delete>
+</mapper>
